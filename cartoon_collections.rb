@@ -6,7 +6,7 @@ end
 
 
 def summon_captain_planet(summons)
-  summon.collect do |summon|
+  summons.collect do |summon|
     "#{summon.capitalize}!"
 end
 
