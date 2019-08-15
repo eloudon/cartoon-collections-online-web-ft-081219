@@ -5,9 +5,9 @@ def roll_call_dwarves(dwarves)
 end
 
 
-def summon_captain_planet(veggies)
-  veggies.collect do |veggie|
-    "#{veggie.capitalize}!"
+def summon_captain_planet(summons)
+  summons.collect do |summon|
+    "#{summon.capitalize}!"
   end
 end
 
