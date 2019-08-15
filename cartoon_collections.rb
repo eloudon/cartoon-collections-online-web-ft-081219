@@ -22,4 +22,9 @@ end
 def find_the_cheese(cheeses)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+
+  i = 0
+  while i < cheeses.length
+    if cheeses.include?("#{cheese_types[i]}")
+      return cheese_types[i]
 end
